@@ -28,8 +28,8 @@ species: The animal species involved in the conflict.
 habitat_type: The type of habitat where the incident occurred.
 distance_to_settlement: Distance from the incident to the nearest human settlement (in km).
 conflict_type: The type of conflict (e.g., property damage, physical harm).
-minor_injuries: Number of minor injuries to humans.
-major_injuries: Number of major injuries to humans.
+minor_injuries: Number of humans who sustained minor injuries during the incident.
+major_injuries: Number of humans who sustained major injuries during the incident.
 number_of_deaths: Number of human deaths.
 economic_loss: Economic loss in USD.
 
