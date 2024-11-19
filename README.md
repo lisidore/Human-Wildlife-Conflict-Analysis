@@ -4,7 +4,7 @@ Comprehensive Human-Wildlife Conflict Analysis in India's National Parks
 This repository contains a hypothetical research project designed to demonstrate the entire data science workflow: from data collection and cleaning to exploratory analysis, visualisation, and machine learning modeling. The focus is on understanding and predicting human-wildlife conflicts in specific national parks in India.
 
 **Hypothetical Data Collection Methods**
-The data for this project was hypothetically collected through interviews with affected families and local authorities. Incident coordinates were recorded using GPS devices during site visits guided by the interviewees.
+The data for this project was hypothetically sourced through a combination of community interviews, site visits, and existing records from local wildlife agencies. Incident coordinates were recorded using GPS devices during guided site visits with interviewees, ensuring precise spatial data. The dataset includes 1000 records of past incidents, aggregated from community reports and wildlife agency records, covering incidents within three national parks in India: Bandipur, Kaziranga, and Sundarbans.
 
 **Data Cleaning**
 The repository includes an initial "unclean" dataset to demonstrate data cleaning techniques. The data cleaning script handles missing values, duplicates, and outliers to produce a clean dataset for analysis.
@@ -16,9 +16,6 @@ How effectively can temporal patterns in human-wildlife conflicts be forecasted 
 
 **Hypothetical Scenario**
 This study focuses on incidents that could occur within the boundaries of three national parks in India: Bandipur, Kaziranga, and Sundarbans. The project aims to understand factors contributing to these conflicts and to predict future incidents in these specific locations.
-
-**Methods**
-The dataset includes 1000 records of past incidents, hypothetically sourced from local wildlife agencies and community reports.
 
 **Exploratory Data Analysis (EDA)**: Initial visualisations are created to understand the data better, with a focus on spatial patterns.
 
@@ -38,7 +35,7 @@ economic_loss: Economic loss in USD.
 
 Scripts and How to Run Them
 Data Cleaning: data_cleaning.py - Cleans the raw data.
-Data Visualisation: data_visualisation.py - Produces visualizations.
+Data Visualisation: data_visualisation.py - Produces visualisations.
 Machine Learning Models: ml_models.py - Contains machine learning code.
 Results and Discussion
 The initial analysis suggests that distance to the nearest settlement and species type are significant factors in predicting the likelihood and severity of conflicts.
